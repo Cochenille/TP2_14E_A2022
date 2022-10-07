@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ldrolet\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Laurent\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ldrolet\\Desktop\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
+      "projectUniqueName": "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
       "projectName": "TP2_14E_A2022",
-      "projectPath": "C:\\Users\\ldrolet\\Desktop\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
-      "packagesPath": "C:\\Users\\ldrolet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ldrolet\\Desktop\\TP2_14E_A2022\\TP2_14E_A2022\\obj\\",
+      "projectPath": "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
+      "packagesPath": "C:\\Users\\Laurent\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ldrolet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Laurent\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

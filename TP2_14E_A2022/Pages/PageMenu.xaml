@@ -5,32 +5,37 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TP2_14E_A2022.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="PageMenu">
 
-    <Grid Background="White" Margin="20,20,20,20">
+    <Grid Background="White" >
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="0.3*" />
+            <ColumnDefinition Width="0.8*" />
             <ColumnDefinition Width="0.3*" />
 
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.2*"/>
-            <RowDefinition Height="1*" />
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.1*" />
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Column="2" Orientation="Horizontal" >
-            <Label >Bonjour</Label>
-            <TextBlock Style="{DynamicResource overLabel}" FontSize="18" TextAlignment="Center">NomUsager</TextBlock>
+        <Image Source="../Ressources/logo.png" MaxHeight="150" MaxWidth="150" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top"></Image>
+
+        <StackPanel Grid.Column="2" Orientation="Vertical" VerticalAlignment="Top" Margin="0,15,20,0">
+            <StackPanel Orientation="Horizontal"   HorizontalAlignment="Right"   >
+                <Label >Bonjour</Label>
+                <TextBlock Style="{DynamicResource overLabel}" FontSize="16" VerticalAlignment="Center"  >NomUsager</TextBlock>
+            </StackPanel >
+            <TextBlock Grid.Row="0" Grid.Column="1" Style="{DynamicResource overLabel}" FontSize="12" HorizontalAlignment="Right"  >Me déconnecter</TextBlock>
         </StackPanel >
 
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" >
-            <Button Style="{StaticResource boutonMenu}" Width="150" Height="100" Click="BoutonConnexion_Click">Gestion des lots</Button>
-            <Button Style="{StaticResource boutonMenu}" Width="150" Height="100" Click="BoutonConnexion_Click">Matériel</Button>
-            <Button Style="{StaticResource boutonMenu}" Width="150" Height="100" Click="BoutonConnexion_Click">Gestion des membres</Button>
+        <StackPanel Grid.Row="1"  Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" >
+            <Button Style="{StaticResource boutonMenu}" Width="125" Height="100" >Gestion des lots</Button>
+            <Button Style="{StaticResource boutonMenu}" Width="125" Height="100" >Matériel</Button>
+            <Button Style="{StaticResource boutonMenu}" Width="125" Height="100" >Membres</Button>
         </StackPanel>
-        
-        
 
     </Grid>
 </Page>

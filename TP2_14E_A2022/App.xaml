@@ -24,8 +24,8 @@
             </Setter>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    
-                    <Setter Property="Foreground" Value="#FF36FC59"/>
+
+                    <Setter Property="Foreground" Value="#FF009019"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -51,7 +51,7 @@
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
 
-                    <Setter Property="Foreground" Value="#FF36FC59"/>
+                    <Setter Property="Foreground" Value="#FF009019"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -61,7 +61,7 @@
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="TextBlock.TextDecorations" Value="Underline" />
-                    <Setter Property="Foreground" Value="#FF36FC59" />
+                    <Setter Property="Foreground" Value="#FF009019" />
                     
                 </Trigger>
             </Style.Triggers>
