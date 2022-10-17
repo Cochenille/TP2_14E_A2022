@@ -24,5 +24,12 @@ namespace TP2_14E_A2022.Pages
         {
             InitializeComponent();
         }
+
+        private void BoutonDeconnexion_Click(object sender, MouseButtonEventArgs e)
+        {
+            PageConnexion pageConnexion = new PageConnexion();
+
+            this.NavigationService.Navigate(pageConnexion);
+        }
     }
 }

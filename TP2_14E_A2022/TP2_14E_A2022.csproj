@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Ressources\arrow.png" />
     <Resource Include="Ressources\logo.png" />
   </ItemGroup>

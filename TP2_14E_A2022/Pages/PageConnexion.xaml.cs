@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TP214E.Data;
 
 namespace TP2_14E_A2022.Pages
 {
@@ -20,9 +21,12 @@ namespace TP2_14E_A2022.Pages
     /// </summary>
     public partial class PageConnexion : Page
     {
+        private DAL dal;
         public PageConnexion()
         {
             InitializeComponent();
+            dal = new DAL();
+
         }
         private void BoutonConnexion_Click(object sender, RoutedEventArgs e)
         {
