@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj": {}
+    "C:\\Users\\ldrolet\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj": {
+    "C:\\Users\\ldrolet\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
+        "projectUniqueName": "C:\\Users\\ldrolet\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
         "projectName": "TP2_14E_A2022",
-        "projectPath": "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
-        "packagesPath": "C:\\Users\\Laurent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laurent\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\obj\\",
+        "projectPath": "C:\\Users\\ldrolet\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\TP2_14E_A2022.csproj",
+        "packagesPath": "C:\\Users\\ldrolet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ldrolet\\Desktop\\GIT\\TP2_14E_A2022\\TP2_14E_A2022\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Laurent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ldrolet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

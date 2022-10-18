@@ -24,6 +24,7 @@ namespace TP2_14E_A2022.Pages
         private DAL dal;
         public PageConnexion()
         {
+            //DAL dal = new DAL()
             InitializeComponent();
             dal = new DAL();
 
